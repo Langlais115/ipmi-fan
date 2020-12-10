@@ -1,4 +1,5 @@
-DELL Fan Control Mitigation
+Dell fan speed control mitigation.
+This script will maitain the fan speed at the minimum possible while keeping your system under the temprature you specify.
 
 This file is public domain and provided as-is. There are NO guarantees. Use at your own risk.
 
