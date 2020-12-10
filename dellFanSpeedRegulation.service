@@ -1,0 +1,11 @@
+[Unit]
+Description=Dell fan speed modulation
+PartOf=basic.target
+
+[Service]
+Type=simple
+ExecStart=/opt/script/fanSpeedRegulation.sh &
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
